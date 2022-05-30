@@ -10,7 +10,7 @@ for x in range(50):
                 if '06' in string:
                     string =string.replace('06', '440', 1)
             if string.count('2') == 30 and string.count('4') == 54 and string.count('6') == 10:
-                print(string.count('6'))
+                print(z)
                 break
 
 #  10
