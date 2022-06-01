@@ -1,6 +1,6 @@
 with open('24.txt') as f:
     string = f.readline()
-
+print(string)
 count = 1
 max_count = 0
 for i in range(len(string) - 1):
